@@ -1,0 +1,48 @@
+.section-height-login{
+    height: 70vh;
+}
+
+.custom-background-login{
+    background-image: -webkit-linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+    background-size: 200%;
+}
+
+.btn-custom-login{
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: transparent;
+    background-size: 190%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-custom-login:hover{
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .btn-custom-login{
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid white;
+        background: transparent;
+        background-size: 190%;
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        transition: 0.5s;
+    }
+}

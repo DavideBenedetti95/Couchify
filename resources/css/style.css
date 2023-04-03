@@ -1,0 +1,172 @@
+*{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4, .display-1, .display-2, .display-3, .display-4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+:root{
+    --cy: rgb(228, 248, 255);
+    --py: rgb(255, 51, 104);
+}
+
+body{
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+
+button{
+    cursor: none !important;
+}
+
+/* Navbar */
+.default-pointer{
+    cursor: default;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.dropdown-menu{
+    background-color: var(--py);
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0px;
+    }
+}
+
+/* header homepage*/
+
+.header-background{
+    background-color: var(--cy);
+}
+
+.custom-height-column-header{
+    min-height: 55vh;
+}
+
+.btn-custom{
+    cursor: none !important;
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+    background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+    background-size: 190%;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-custom:hover{
+    background-size: 100%;
+}
+
+.swiper-image{
+    width: 100%;
+    height: auto;
+}
+
+
+/* category section */
+.background-category{
+    background-color: #f8fbff;
+}
+
+.btn_explore{
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.btn_explore:hover{
+    opacity: 1;
+    color: var(--py);
+}
+
+.explore{
+    text-decoration: none;
+    color: var(--py);
+    font-weight: 700;
+}
+
+/* Offer */
+
+.custom-height-column-offer{
+    height: 50vh;
+}
+
+
+.countdown{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.countdown-title{
+    font-weight: 700;
+    color: rgb(78, 78, 78);
+}
+
+.expired{
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Newsletter */
+.background-newletter{
+    background-image: url(/public/media/subscribe_area.png);
+}
+.custom-height-column-newsletter{
+    min-height: 35vh;
+}
+
+.form-control{
+    height: 60px;
+    padding-left: 25px;
+    border: 0px solid transparent;
+    background-color: #fff;
+}
+
+
+
+
+/* Media Query Smartphone */
+
+@media screen and (max-width: 600px) {
+    
+    .swiper-image{
+        display: none;
+        
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+}

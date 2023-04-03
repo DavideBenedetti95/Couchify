@@ -1,0 +1,24 @@
+.height-header-column{
+    height: 30vh;
+}
+
+.form-control-textarea{
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    height: 148px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    resize: none;
+}
+
+.form-control-custom{
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    height: 148px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    width: 100%;
+    height: 50px;
+}

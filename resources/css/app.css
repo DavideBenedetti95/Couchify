@@ -1,0 +1,7 @@
+@import 'bootstrap';
+@import './style.css';
+@import './detail.css';
+@import './contact.css';
+@import './login.css';
+@import './tracking.css';
+@import 'animate.css';
