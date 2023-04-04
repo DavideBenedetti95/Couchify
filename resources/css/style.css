@@ -22,6 +22,10 @@ button{
     cursor: none !important;
 }
 
+span{
+    cursor: none !important;
+}
+
 /* Navbar */
 .default-pointer{
     cursor: default;

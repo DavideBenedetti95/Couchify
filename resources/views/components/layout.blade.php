@@ -11,13 +11,13 @@
     " rel="stylesheet">
     {{-- Favicon --}}
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    {{-- AoS CSS --}}
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     {{-- Swiper CSS --}}
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <!-- Aos CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     {{-- Google Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,14 +51,16 @@
             color: '#000000',
         })
     </script>
-    {{-- AOS JS --}}
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
     {{-- Swiper JS --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     {{-- Fontawesome --}}
     <script src="https://kit.fontawesome.com/e3cc6884a7.js" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inizialize and AOS Setting -->
+    <script>
+        AOS.init({
+        });
+    </script>
 </body>
 </html>

@@ -12,7 +12,7 @@
     </section>
     
     {{-- Section Google Maps --}}
-    <section class="container my-5 py-5">
+    <section class="container my-5 py-5 animate__animated animate__backInUp">
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12088.736529799064!2d-73.9855426!3d40.7579747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sit!4v1680187173846!5m2!1sen!2sit" width="1280" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -26,10 +26,10 @@
             @csrf
             <div class="row">
                 <div class="col-12 pb-3">
-                    <h3>Contattaci</h3>
+                    <h3 data-aos="fade-right">Contattaci</h3>
                 </div>
                 
-                <div class="col-md-8 m-0">
+                <div class="col-md-8 m-0" data-aos="fade-right">
                     <textarea class="form-control-textarea w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
                     <div class="row">
                         <div class="col-md-6 my-1">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 mt-md-0 mt-3">
+                <div class="col-md-4 mt-md-0 mt-3" data-aos="fade-left">
                     <div class="d-flex">
                         <i class="fa-solid fa-house-chimney fa-fw"></i>
                         <p class="ps-2">Manhattan, NY 10036, United States</p>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 
-                <div class="col-12 pt-4">
+                <div class="col-12 pt-4" data-aos="fade-up">
                     <button type="submit" class="btn-custom">Submit</button>
                 </div>   
             </div>
