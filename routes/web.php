@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,14 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
 Route::get('/detail/{type}' , [PublicController::class , 'detailProducts'])->name('product.detail');
-
-
 Route::get('/shop', [PublicController::class, 'shop'])->name('shop');
-
-Route::get('/login', [PublicController::class, 'login'])->name('login');
-
 Route::get('/tracking', [PublicController::class, 'tracking'])->name('tracking');
-
-
 Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
 Route::post('/contact/submit', [PublicController::class, 'submit'])->name('submit');
+

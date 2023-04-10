@@ -52,10 +52,6 @@ class PublicController extends Controller
         return view('tracking');
     }
 
-    public function login(){
-        return view('login');
-    }
-
     public function contact(){
         return view('contact');
     }

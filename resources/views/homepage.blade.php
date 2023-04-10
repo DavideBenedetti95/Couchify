@@ -108,7 +108,7 @@
                     <img src="media/offer.png" alt="immagine puff" class="img-fluid my-auto" data-aos="fade-left">
                 </div>
                 <div class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center">
-                    <h2 class="display-3" data-aos="fade-down">Sconti settimanali<br>su tutti i nostri prodotti</h2>
+                    <h2 class="display-4" data-aos="fade-down">Sconti settimanali su<p id="sale"></p></h2>
                     {{-- Countdown --}}
                     <div id="countdown" class="d-flex justify-content-between pt-5">
                         <div>

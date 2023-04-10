@@ -62,5 +62,15 @@
         AOS.init({
         });
     </script>
+    {{-- Typed.js --}}
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#sale', {
+          strings: ['tutti i nostri Divani. ^1000', 'tutte le nostre Poltrone. ^1000',' tutti i nostri Puff. ^1000'],
+          typeSpeed: 50,
+          loop: true,
+          backSpeed: 50,
+        });
+      </script>
 </body>
 </html>

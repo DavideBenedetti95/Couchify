@@ -26,6 +26,10 @@ span{
     cursor: none !important;
 }
 
+.typed-cursor {
+    display: none;
+}
+
 /* Navbar */
 .default-pointer{
     cursor: default;
