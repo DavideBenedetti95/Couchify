@@ -31,6 +31,3 @@ Qui sotto un brevissimo showcase del progetto.
 
 
 ![](https://github.com/DavideBenedetti95/Couchify/blob/main/public/media/Couchify_Desktop.gif)
-
-
-![](https://github.com/DavideBenedetti95/Couchify/blob/main/public/media/mobile.gif)
