@@ -1,7 +1,9 @@
 
 # Couchify (Da Terminare)
 
-Couchify e' un progetto nato durante la seconda parte del corso da fullstack developer di Aulab, il progetto attualmente e' ancora mancante di alcune parti e non credo verra' terminato.
+Couchify e' un progetto nato durante la seconda parte del corso da fullstack developer di Aulab. 
+
+Il progetto attualmente e' ancora mancante di alcune parti e non credo verra' terminato.
 
 L'idea era quella di replicare un template partendo da questa base: https://themewagon.github.io/aranoz/index.html , ed aggiungere funzionalita' back-end, in parte presenti.
 
