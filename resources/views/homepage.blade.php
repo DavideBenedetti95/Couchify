@@ -104,12 +104,13 @@
     <section class="container-fluid header-background py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 d-flex justify-content-center aling-items-center">
+                <div class="col-12 col-md-6 d-flex justify-content-center aling-items-center custom-height-column-offer">
                     <img src="media/offer.png" alt="immagine puff" class="img-fluid my-auto" data-aos="fade-left">
                 </div>
-                <div class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center">
-                    <h2 class="display-4" data-aos="fade-down">Sconti settimanali su<p id="sale"></p></h2>
+                <div class="col-12 col-md-6 p-5 d-flex flex-column justify-content-center custom-height-column-offer">
+                    <h2 class="display-4" data-aos="fade-down">Sconti settimanali su:<p id="sale"></p></h2>
                     {{-- Countdown --}}
+                    
                     <div id="countdown" class="d-flex justify-content-between pt-5">
                         <div>
                             <p class="countdown-title text-center">Giorni</p>
@@ -128,6 +129,7 @@
                             <h3 class="countdown" id="seconds"></h3>
                         </div>
                     </div>
+
                     <div>
                         <p class="expired text-center" id="expired"></p>
                     </div>

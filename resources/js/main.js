@@ -24,7 +24,8 @@ const swiper = new Swiper('.swiper', {
 // Countdown
 
 // Countdown fine corso
-let countDownDate = new Date("May 4, 2023 13:00:00").getTime();
+
+let countDownDate = new Date("May 9, 2023 9:35:00").getTime();
 
 let x = setInterval(function() {
   
@@ -62,6 +63,7 @@ let x = setInterval(function() {
     
   }
 }, 1000);
+
 
 
 
