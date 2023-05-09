@@ -20,6 +20,14 @@ Qui sotto un brevissimo showcase del progetto.
 - Livewire
 - PHP
 
+## Gif
+
+
+![](https://github.com/DavideBenedetti95/Couchify/blob/main/public/media/Couchify_Desktop.gif)
+
+![](https://github.com/DavideBenedetti95/Couchify/blob/main/public/media/Couchify_Desktop_Detail.gif)
+
+
 
 ## Screenshots
 
@@ -27,7 +35,5 @@ Qui sotto un brevissimo showcase del progetto.
 
 ![](https://github.com/DavideBenedetti95/Couchify/blob/main/public/media/login_couchify.png)
 
-## Gif
+![](https://github.com/DavideBenedetti95/Couchify/blob/main/public/media/contatti_coucify.png)
 
-
-![](https://github.com/DavideBenedetti95/Couchify/blob/main/public/media/Couchify_Desktop.gif)
